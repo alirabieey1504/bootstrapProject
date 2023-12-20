@@ -1,0 +1,230 @@
+@font-face{
+      font-family: myFont;
+      src: url(font/IRANSansWeb.woff);
+}
+@font-face{
+    font-family: myFont2;
+    src: url(font/IRANSansWeb_Light.woff);
+}
+html,body{
+    margin: 0px;
+    padding:0px;
+    font-family: myFont;
+}
+a.span,h1,h2,h3,h4,h5,h6,p,label{
+    font-family:myFont2;
+}
+.svg-fill-primary{
+    fill: rgb(13, 9, 247);
+}
+.svg-fill-white{
+    fill:white;
+}
+.svg-test{
+   height: 55px;
+}
+.back2{
+    background-color: #f5f5f5;
+}
+.head-inp{
+    height: 45px;
+    outline: none;
+}
+.dorost i{
+    top: 15px;
+    padding-right: 560px;
+}
+.color1{
+    color: rgb(10, 79, 168);
+}
+.box-heder:hover{
+background-color: #e7e7e7;
+transition: 1s;
+}
+.phone{
+    transform: rotate(-35deg);
+}
+nav ul li:hover{
+    background-color: #e7e7e7;
+    cursor:pointer;
+}
+.box-sub{
+    /* background-color: rgb(252, 255, 249); */
+    display: none;
+    /* margin-top: 20px; */
+    width:1319px;
+    right: -61px;
+}
+.cg:hover .box-sub{
+display: block;
+}
+.box-h{
+   background-color: white;
+   z-index: 99;
+    margin-top: 35px;
+}
+.content{
+    height: 400px;
+    overflow:auto;
+}
+.af{
+    height: 10px;
+    width: 10px;
+    transform: rotate(45deg);
+    right: 88px;
+    top: 30px;
+    border-bottom: none!important;
+    border-right: none!important;
+    background-color: white;
+}
+.menu-1{
+    list-style-type: none;
+    background-color: #e7e7e7;
+    
+}
+.menu-1 li{
+    padding: 10px 0px;
+}
+.menu-1 li:hover{
+    background-color: white;
+}
+.menu-1 li::before{
+    content: '+';
+    display:inline-block;
+    padding:0px 5px;
+    color: grey;
+}
+.menu-1 li:hover::before{
+    content: '-';
+    display:inline-block;
+    padding:0px 5px;
+    color: rgb(57, 13, 255);
+}
+.border-butten{
+    border-bottom: 1px dashed #e7e7e7;
+}
+ul{
+    list-style-type: none;
+}
+.img-box{
+    background-image: url(header.png);
+    height: 500px;
+    width: 1920px   ;
+    background-size: cover;
+}
+.content-img{
+    background: linear-gradient(to left,#304aca,transparent);
+    height: 500px;
+ 
+}
+.box1-img{
+    top: 200px;
+    padding-right: 100px;
+}
+.box2-img{
+    color: rgb(4, 241, 131);
+    top: 240px;
+    padding-right: 100px;
+}
+.box3-img{
+    top: 300px;
+    padding-right:100px ;
+}
+.box3-img input{
+    height: 50px;
+    outline: none;
+}
+.box3-img i{
+    top: 18px;
+    padding-right: 635px;
+}
+.cat-box:hover{
+    border-color: #2196f3!important;
+    box-shadow: 0px 1px 4px 2px #2196f354;
+    transition: 1s;
+  
+}
+.title-me{
+    top: 55px;
+    padding-right: 40px;
+}
+li>.active{
+  background-color: transparent !important;
+  border-bottom:2px solid black !important;
+  color: black!important;
+}
+
+.nav-link{
+    color: #383535b3 !important;
+}
+.back4{
+    background-color: #13226a;
+    color: white;
+}
+.border-hover{
+    display: none;
+}
+.ss2:hover .border-hover{
+    display: block;
+}
+.tool{
+    z-index: 1000;
+    right: 332px;
+    padding-bottom:  24px !important;
+}
+.tool-left{
+    height: 15px;
+    width: 15px;
+    right: -25px;
+    transform: rotate(45deg);
+    bottom: -77px;
+    border-bottom: none !important;
+    border-left: none !important;
+    background-color: white;
+}
+.tool-l{
+    right: -332px;
+}
+.tool-f{
+    height: 15px;
+    width: 15px;
+    right: 304px;
+    transform: rotate(224deg);
+    bottom: -77px;
+    border-bottom: none !important;
+    border-left: none !important;
+    background-color: white;
+}
+.marg{
+    margin-left: 111px !important;
+    margin-right: 108px !important;
+    margin-top: 109px !important;
+}
+.sp{
+    border-bottom: 1px solid rgb(225,225,225,.1);
+}
+.box-sp-pa:hover {
+    background-color: #00000059;
+    padding-right: 20px!important;
+}
+.ff{
+    background-color: aqua;
+}
+.tech-m{
+    background-image: url(title-curve.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.cs2{
+color: black;
+}
+.back5{
+  background-color:   #191f3c;
+}
+.ule li:hover{
+    background-color: #00000059;
+
+}
+.z-index{
+    z-index: 9999;
+}
